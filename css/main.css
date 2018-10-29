@@ -88,7 +88,7 @@ nav li a {
   }
   
   /* Navigation Header-Banner */
-  .mySlides {display: none;}
+  .mySlides {display: none; }
   img {vertical-align: middle;}
   
   /* Slideshow container */
