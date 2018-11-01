@@ -16,53 +16,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-
-            <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                      <img src="./images/index/banner3.jpg" style="width:100%;height: 400px;">
-                      <div class="text">Caption Text</div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <img src="./images/index/banner2.jpg" style="width:100%;height: 400px;">
-                      <div class="text">Caption Two</div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <img src="./images/index/banner.png" style="width:100%;height: 400px;">
-                      <div class="text">Caption Three</div>
-                    </div>
-                    
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                    <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span> 
-                            <span class="dot" onclick="currentSlide(2)"></span> 
-                            <span class="dot" onclick="currentSlide(3)"></span> 
-                    </div>
-            </div>
-                    
-
         <nav>
             <ul>
                 <div class="logo">
-                  <img class="logo-lg" src="./images/index/logo.png" alt="LOGO">
+                  <img class="logo-lg" src="./images/index/logoZT.png" alt="LOGO">
                 </div>
                 <li><a class="dropbtn active" href=""><p>Home</p></a></li>
-                <li><a href=""><p>Test</p></a></li>
-                <li><a href=""><p>Test</p></a></li>
-                <li><a href=""><p>Test</p></a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Info</a>
                     <div class="dropdown-content">
                         <a href="#">Technovium</a>
                         <a href="#">Vakken</a>
-                        <a href="#">Rooster</a>
+                        <a href="rooster.html">Rooster</a>
                         <a href="#">Docenten</a>
                         <a href="#">Begeleiding & Ondersteuning</a>
                         <a href="#">BPV</a>
@@ -72,13 +41,83 @@
                   </li>
               </ul>
         </nav>
-
+        <div class="banner">
+            <img class="banner-img" src="./images/index/banner1.jpg" alt="">
+        </div>
+        <div class="img_overlay">
+        </div>
     </header>
     <div class="wrapper">
-        <!-- vier vakken bullshit -->
+        <div class="blokcontainer-heading">Technovium Informatie AO</div>
+            <div class="blokcontainer">
+                    <div class="container">
+                      <div class="blok afb1">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                            <p>Technovium</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb7">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                            <p>Begeleiding
+                            & Ondersteuning</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb2">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                            <p>Sport Op Maat</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb5">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                              <p>Docenten</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb3">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="rooster.html">
+                            <p>Rooster</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb4">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                            <p>Vakken</p></a>
+                      </div></div></div>
+              
+                      <div class="blok afb6">
+                        <div class="opacity">
+                          <div class="tekst">
+                            <a href="#">
+                            <p>Bpv</p></a>
+                      </div></div></div>
+              
+                      <div class="blok2"></div>
+                    </div>
+                  </div>
     </div>
-
-    <script src="./js/main.js"></script>
+    <footer class="footer">
+        <div class="fleft left">
+            <p>Gemaakt door Amir, Lucas, Sjoerd en Gus</p>
+        </div>
+        <div class="fmiddle left">
+            <p>© 2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+        </div>
+        <div class="fright left">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+    </footer>
 </body>
 </html>
 
